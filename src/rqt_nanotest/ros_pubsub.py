@@ -110,7 +110,7 @@ class ROSdata(QWidget):
             #self.gif.stop()
             self.backwarn = 1
             print("self.zerocnt=" + str(self.zerocnt))
-            self.label.setPixmap(QPixmap("/home/denny3/new_work/src/rqt_nanotest/scared.jpg"))
+            self.label.setPixmap(QPixmap("/home/denny3/new_work/src/rqt_nanotest/scared2.png"))
             if self.backwarn ==1:
                 self.zerocnt = self.zerocnt+1
             if self.zerocnt ==4:
